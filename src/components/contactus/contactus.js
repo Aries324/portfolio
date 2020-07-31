@@ -27,7 +27,7 @@ export default class ContactUs extends Component {
                 name="contactForm"
                 id="contactForm"
                 method="POST"
-    
+                netlify
                 data-netlify="true"
               >
                 <fieldset>
@@ -111,6 +111,21 @@ export default class ContactUs extends Component {
             </aside>
           </div>
         </section>
+        <form name="contact" netlify>
+          <p>
+            <label>
+              Name <input type="text" name="name" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Email <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
       </React.Fragment>
     );
   }
