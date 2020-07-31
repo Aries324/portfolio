@@ -26,7 +26,12 @@ export default class Footer extends Component {
             </ul>
             <ul className="copyright">
               <li>© Copyright 2020</li>
-              <li>Design by Tiffany McLean</li>
+              <li>
+                Design by Tiffany McLean with the assistance of
+                <a href="http://www.Styleshout.com">
+                  http://www.Styleshout.com
+                </a>
+              </li>
             </ul>
           </div>
           <div id="go-top">
