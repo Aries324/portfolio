@@ -23,7 +23,8 @@ export default class ContactUs extends Component {
           <div className="row">
             <div className="eight columns">
               {/* form */}
-              <form name="contact" method="post" >
+              <form name="contact" method="post">
+                <input type="hidden" name="form-name" value="contact" />
                 <p>
                   <label>
                     Your Name: <input type="text" name="name" />
@@ -32,15 +33,6 @@ export default class ContactUs extends Component {
                 <p>
                   <label>
                     Your Email: <input type="email" name="email" />
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    Your Role:{" "}
-                    <select name="role[]" multiple>
-                      <option value="leader">Leader</option>
-                      <option value="follower">Follower</option>
-                    </select>
                   </label>
                 </p>
                 <p>
@@ -54,6 +46,16 @@ export default class ContactUs extends Component {
               </form>
               {/* Form End */}
               {/* contact-warning */}
+              <div id="message-warning">
+                {" "}
+                An error has occurred while processing your message
+              </div>
+              {/* contact-success */}
+              <div id="message-success">
+                <i className="fa fa-check" />
+                Your message was sent, thank you!
+                <br />
+              </div>
             </div>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
