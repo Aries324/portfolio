@@ -27,6 +27,7 @@ export default class ContactUs extends Component {
                 name="contactForm"
                 id="contactForm"
                 method="POST"
+                netlify
                 data-netlify="true"
               >
                 <fieldset>
@@ -36,7 +37,6 @@ export default class ContactUs extends Component {
                     </label>
                     <input
                       type="text"
-                      defaultValue
                       size={35}
                       id="contactName"
                       name="contactName"
@@ -48,7 +48,6 @@ export default class ContactUs extends Component {
                     </label>
                     <input
                       type="text"
-                      defaultValue
                       size={35}
                       id="contactEmail"
                       name="contactEmail"
@@ -58,7 +57,6 @@ export default class ContactUs extends Component {
                     <label htmlFor="contactSubject">Subject</label>
                     <input
                       type="text"
-                      defaultValue
                       size={35}
                       id="contactSubject"
                       name="contactSubject"
@@ -73,7 +71,6 @@ export default class ContactUs extends Component {
                       rows={15}
                       id="contactMessage"
                       name="contactMessage"
-                      defaultValue={""}
                     />
                   </div>
                   <div>
