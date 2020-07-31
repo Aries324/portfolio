@@ -22,14 +22,8 @@ export default class ContactUs extends Component {
           </div>
           <div className="row">
             <div className="eight columns">
-              {/* form */}
-              {/* <form
-                name="contactForm"
-                id="contactForm"
-                method="POST"
-                netlify
-                data-netlify="true" */}
-              >
+              
+              
                  <form name="contact" method="post"   id="contactForm">
                 <input type="hidden" name="form-name" value="contact" />
                 <fieldset>
@@ -41,7 +35,7 @@ export default class ContactUs extends Component {
                       type="text"
                       size={35}
                       id="contactName"
-                      name="contactName"
+                      name="name"
                     />
                   </div>
                   <div>
@@ -52,7 +46,7 @@ export default class ContactUs extends Component {
                       type="text"
                       size={35}
                       id="contactEmail"
-                      name="contactEmail"
+                      name="email"
                     />
                   </div>
                   <div>
@@ -61,7 +55,7 @@ export default class ContactUs extends Component {
                       type="text"
                       size={35}
                       id="contactSubject"
-                      name="contactSubject"
+                      name="subject"
                     />
                   </div>
                   <div>
@@ -72,7 +66,7 @@ export default class ContactUs extends Component {
                       cols={50}
                       rows={15}
                       id="contactMessage"
-                      name="contactMessage"
+                      name="InputMessage"
                     />
                   </div>
                   <div>
