@@ -49,15 +49,7 @@ export default class ContactUs extends Component {
                       name="email"
                     />
                   </div>
-                  <div>
-                    <label >Subject</label>
-                    <input
-                      type="text"
-                      size={35}
-                      id="contactSubject"
-                      name="subject"
-                    />
-                  </div>
+                  
                   <div>
                     <label >
                       Message <span className="required">*</span>
@@ -66,7 +58,7 @@ export default class ContactUs extends Component {
                       cols={50}
                       rows={15}
                       id="contactMessage"
-                      name="InputMessage"
+                      name="message"
                     />
                   </div>
                   <div>
