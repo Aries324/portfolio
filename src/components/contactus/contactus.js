@@ -23,8 +23,9 @@ export default class ContactUs extends Component {
           <div className="row">
             <div className="eight columns">
               {/* form */}
-              {/* <form
+              <form
                 name="contactForm"
+                role="form"
                 id="contactForm"
                 method="POST"
                 netlify
@@ -110,7 +111,7 @@ export default class ContactUs extends Component {
               </div>
             </aside>
           </div>
-        </section> */}
+        </section>
         <form name="contact" method="POST" data-netlify="true">
           <p>
             <label>
@@ -140,6 +141,8 @@ export default class ContactUs extends Component {
             <button type="submit">Send</button>
           </p>
         </form>
+
+        
       </React.Fragment>
     );
   }
