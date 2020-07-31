@@ -111,7 +111,7 @@ export default class ContactUs extends Component {
             </aside>
           </div>
         </section>
-        <form name="contact" netlify>
+        <form name="contact" netlify method="POST">
           <p>
             <label>
               Name <input type="text" name="name" />
