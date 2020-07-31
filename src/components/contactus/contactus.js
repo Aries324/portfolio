@@ -23,7 +23,7 @@ export default class ContactUs extends Component {
           <div className="row">
             <div className="eight columns">
               {/* form */}
-              <form
+              {/* <form
                 name="contactForm"
                 id="contactForm"
                 method="POST"
@@ -110,7 +110,7 @@ export default class ContactUs extends Component {
               </div>
             </aside>
           </div>
-        </section>
+        </section> */}
         <form name="contact" method="POST" data-netlify="true">
           <p>
             <label>
