@@ -27,7 +27,7 @@ export default class ContactUs extends Component {
                 name="contactForm"
                 id="contactForm"
                 method="POST"
-                netlify
+    
                 data-netlify="true"
               >
                 <fieldset>
