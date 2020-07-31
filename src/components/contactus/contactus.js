@@ -32,7 +32,7 @@ export default class ContactUs extends Component {
               >
                 <fieldset>
                   <div>
-                    <label htmlFor="contactName">
+                    <label>
                       Name <span className="required">*</span>
                     </label>
                     <input
@@ -43,7 +43,7 @@ export default class ContactUs extends Component {
                     />
                   </div>
                   <div>
-                    <label htmlFor="contactEmail">
+                    <label>
                       Email <span className="required">*</span>
                     </label>
                     <input
@@ -54,7 +54,7 @@ export default class ContactUs extends Component {
                     />
                   </div>
                   <div>
-                    <label htmlFor="contactSubject">Subject</label>
+                    <label>Subject</label>
                     <input
                       type="text"
                       size={35}
@@ -63,7 +63,7 @@ export default class ContactUs extends Component {
                     />
                   </div>
                   <div>
-                    <label htmlFor="contactMessage">
+                    <label>
                       Message <span className="required">*</span>
                     </label>
                     <textarea
