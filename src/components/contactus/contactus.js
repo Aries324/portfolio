@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import axios from "axios";
 
 export default class ContactUs extends Component {
   render() {
@@ -24,7 +23,13 @@ export default class ContactUs extends Component {
           <div className="row">
             <div className="eight columns">
               {/* form */}
-              <form action method="post" id="contactForm" name="contactForm">
+              <form
+                action
+                id="contactForm"
+                name="contactForm"
+                method="POST"
+                data-netlify="true"
+              >
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">

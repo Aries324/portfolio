@@ -132,8 +132,6 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div>
-
-             
             </div>
           </div>
           <div id="modal-01" className="popup-modal mfp-hide">
@@ -159,7 +157,8 @@ export default class Portfolio extends Component {
                 Play{" "}
               </a>
               <a href="https://github.com/Aries324/Connect-4"> Repo</a>
-              <a className="popup-modal-dismiss">Close</a>
+             
+              <button className="popup-modal-dismiss">CLOSE</button>
             </div>
           </div>
           <div id="modal-02" className="popup-modal mfp-hide">
@@ -180,7 +179,7 @@ export default class Portfolio extends Component {
                 Play{" "}
               </a>
               <a href="https://github.com/Aries324/Maze"> Repo</a>
-              <a className="popup-modal-dismiss">Close</a>
+              <button className="popup-modal-dismiss">CLOSE</button>
             </div>
           </div>
           <div id="modal-03" className="popup-modal mfp-hide">
@@ -198,7 +197,6 @@ export default class Portfolio extends Component {
               </p>
               <span className="categories">
                 <i className="fa fa-tag" />
-               
               </span>
             </div>
             <div className="link-box">
@@ -212,7 +210,7 @@ export default class Portfolio extends Component {
                 {" "}
                 Repo
               </a>
-              <a className="popup-modal-dismiss">Close</a>
+            <button className="popup-modal-dismiss">CLOSE</button>
             </div>
           </div>
           <div id="modal-04" className="popup-modal mfp-hide">
@@ -236,7 +234,7 @@ export default class Portfolio extends Component {
                 Play{" "}
               </a>
               <a href="https://github.com/Aries324/Tower-Of-Hanoi"> Repo</a>
-              <a className="popup-modal-dismiss">Close</a>
+            <button className="popup-modal-dismiss">CLOSE</button>
             </div>
           </div>
           <div id="modal-04" className="popup-modal mfp-hide">
@@ -269,7 +267,7 @@ export default class Portfolio extends Component {
                 Try It{" "}
               </a>
               <a href="https://github.com/Aries324/Kwitter-Frontend"> Repo</a>
-              <a className="popup-modal-dismiss">Close</a>
+            <button className="popup-modal-dismiss">CLOSE</button>
             </div>
           </div>
           <div id="modal-05" className="popup-modal mfp-hide">
@@ -290,7 +288,7 @@ export default class Portfolio extends Component {
             </div>
             <div className="link-box">
               <a href="https://github.com/Aries324/django_cowsay">Repo</a>
-              <a className="popup-modal-dismiss">Close</a>
+            <button className="popup-modal-dismiss">CLOSE</button>
             </div>
           </div>
           <div id="modal-06" className="popup-modal mfp-hide">
@@ -315,10 +313,10 @@ export default class Portfolio extends Component {
             </div>
             <div className="link-box">
               <a href="https://github.com/Aries324/junk-finder">Repo</a>
-              <a className="popup-modal-dismiss">Close</a>
+            <button className="popup-modal-dismiss">CLOSE</button>
             </div>
           </div>
-      
+
           <div id="modal-08" className="popup-modal mfp-hide">
             <img
               className="scale-with-grid"
@@ -339,7 +337,7 @@ export default class Portfolio extends Component {
             </div>
             <div className="link-box">
               <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
+            <button className="popup-modal-dismiss">CLOSE</button>
             </div>
           </div>
         </div>
