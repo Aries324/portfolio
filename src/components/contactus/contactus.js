@@ -24,9 +24,8 @@ export default class ContactUs extends Component {
             <div className="eight columns">
               {/* form */}
               <form
-                action
-                id="contactForm"
                 name="contactForm"
+                id="contactForm"
                 method="POST"
                 data-netlify="true"
               >
