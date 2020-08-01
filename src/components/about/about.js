@@ -36,8 +36,8 @@ export default class About extends Component {
                     <br />
                     <a href="tel:9172912389">917-291-2389</a>
                     <br />
-                    <a href="mailto:tamclean@needleinastack.dev">
-                      tamclean@needleinastack.dev
+                    <a href="mailto:tamclean324@gmail.com">
+                      tamclean324@gmail.com
                     </a>
                   </p>
                 </div>
