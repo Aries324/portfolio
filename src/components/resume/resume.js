@@ -42,7 +42,7 @@ export default class Resume extends Component {
                   <div className="twelve columns">
                     <h3>Kenzie Academy</h3>
                     <p className="info">
-                      Student Coach (Remote) <span>•</span>{" "}
+                      Software Engineer Coach (Remote) <span>•</span>{" "}
                       <em className="date">March 2010 - Present</em>
                     </p>
                     <p>
@@ -51,6 +51,23 @@ export default class Resume extends Component {
                       steps to assist students who are not currently passing
                       achieve a grade of at least 80% <br />• Assist with
                       whiteboard assessments
+                    </p>
+                    <p className="info">
+                      Student (Remote) <span>•</span>{" "}
+                      <em className="date">July 2019 - July 2020</em>
+                    </p>
+                    <p>
+                      • With my team, I created a clone of a common
+                      micro-blogging platform utilizing a given API.
+                      Technologies used included; React, Redux, and Semantic UI.
+                      During the project I held the positions of Scrum Master,
+                      Product Owner and Developer to accomplish the following:{" "}
+                      <br /> &emsp; • Organized daily meetings to direct the
+                      end-to-end application lifecycle process <br /> &emsp; •
+                      Merged all Pull Requests (PRs) after I conducted code
+                      reviews. <br /> &emsp; • Engineered dynamic components,
+                      higher-order reducers, and action creators <br /> &emsp; •
+                      Conceptualized and implemented the code logic
                     </p>
                   </div>
                 </div>
